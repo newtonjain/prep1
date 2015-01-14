@@ -1,19 +1,16 @@
 <html ng-app="prep">
-<head>
-	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
-<script type="text/javascript" src="angular.min.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
+	<head>
+		<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+		<script type="text/javascript" src="angular.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
 
-</head>
+	<body ng-controller="build1">
 
-<body ng-controller="build1">
+		<div ng-repeat="person in var2">{{person.name}}<br></div>
+		<button class = "btn btn-success" ng-click="fun1()">I am to be clicked</button>
 
-<div ng-repeat="person in var2">{{person.name}}<br></div>
-<button class = "btn btn-success" ng-click="fun1()">I am to be clicked</button>
-
-
-
-</body>
+	</body>
 
 
 </html>
