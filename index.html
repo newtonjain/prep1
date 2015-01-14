@@ -8,8 +8,8 @@
 
 <body ng-controller="build1">
 
-<div>{{var2.name}}</div>
-<button class = "btn btn-success" ng-click="fun1()" ng-show="!var2.instore">I am to be clicked</button>
+<div ng-repeat="person in var2">{{person.name}}<br></div>
+<button class = "btn btn-success" ng-click="fun1()">I am to be clicked</button>
 
 
 
